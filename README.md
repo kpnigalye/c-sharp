@@ -1,2 +1,2 @@
-# c-sharp
-My experiments and observations with C#
+# Practicing C-Sharp  
+My experiments and observations while using C#
