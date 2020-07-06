@@ -7,7 +7,7 @@
     <ProjectGuid>{A47A821B-81FC-4AD1-B76F-4EB3C65E8649}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>c_sharp_method_passing_arguments</RootNamespace>
-    <AssemblyName>c_sharp_method_passing_arguments</AssemblyName>
+    <AssemblyName>c-sharp-method-passing-arguments</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
