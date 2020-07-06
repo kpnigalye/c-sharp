@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-method-passing-arguments", "c_sharp_method_passing_arguments\c-sharp-method-passing-arguments.csproj", "{A47A821B-81FC-4AD1-B76F-4EB3C65E8649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-classes", "abstract-classes\abstract-classes.csproj", "{04CC8472-DE65-4AB5-A0BB-3269969967AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-abstract-classes", "abstract-classes\c-sharp-abstract-classes.csproj", "{04CC8472-DE65-4AB5-A0BB-3269969967AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-interface", "c-sharp-interface\c-sharp-interface.csproj", "{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}"
 EndProject

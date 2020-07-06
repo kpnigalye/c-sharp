@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{04CC8472-DE65-4AB5-A0BB-3269969967AF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>abstract_classes</RootNamespace>
-    <AssemblyName>abstract-classes</AssemblyName>
+    <RootNamespace>c_sharp_abstract_classes</RootNamespace>
+    <AssemblyName>c-sharp-abstract-classes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
