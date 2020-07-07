@@ -7,7 +7,7 @@ namespace c_sharp_method_passing_arguments
         #region Private Methods
         private void FindSquare(ref int num)
         {
-            num *= num;
+            //num *= num;
             Console.WriteLine($"=> Value of num inside FindSquare() is {num}");
         }
         #endregion

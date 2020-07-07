@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace c_sharp_method_passing_arguments
 {
-    interface ITestMethodPassingArgument: IHeader
+    interface IHeader
     {
-        void TestMethodPassingArgument();
+        void PrintHeader();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace c_sharp_method_passing_arguments
 {
@@ -16,6 +17,12 @@ namespace c_sharp_method_passing_arguments
             ExecuteMethod(new TestRefKeyword());
             ExecuteMethod(new TestOutKeyword());
             ExecuteMethod(new TestInKeyword());
+
+            TestParamsKeyword test = new TestParamsKeyword();
+            test.PrintHeader();
+
+            Console.WriteLine($"Sum of numbers = {test.FindSum(true, 5, 10, 15, 50, 30)}");
+            Console.WriteLine($"Sum of all numbers in the array = {test.FindSum(false, new [] { 1,3,5,7,9})}");
 
             Console.ReadLine();
         }
