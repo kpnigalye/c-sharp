@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace c_sharp_method_passing_arguments
 {
@@ -11,27 +12,19 @@ namespace c_sharp_method_passing_arguments
             Console.WriteLine("-----------------------");
         }
 
-        public int DoubleAndAdd(params int[] numbers)
-        {
-            int output = 0;
-            foreach (var num in numbers)
-            {
-                output += num * 2;
-            }
-
-            return output;
-        }
-
-        public int FindSum(bool flag, params int[] numbers)
+        public int FindAverage(params int[] numbers)
         {
             int sum = 0;
-            foreach (var num in numbers)
+            if (numbers.Length == 0)
+                return sum;
+
+            foreach (int num in numbers)
             {
                 sum += num;
             }
-
-            return flag ? sum *= 2 : sum;
+            return sum / numbers.Length;
         }
+
         #endregion
     }
 }
