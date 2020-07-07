@@ -4,8 +4,19 @@ namespace c_sharp_method_passing_arguments
 {
     class Program
     {
+        public static void ExecuteMethod(ITestMethodPassingArgument test)
+        {
+            test.PrintHeader();
+            test.TestMethodPassingArgument();
+        }
+
         static void Main(string[] args)
         {
+            ExecuteMethod(new TestValueType());
+            ExecuteMethod(new TestRefKeyword());
+            ExecuteMethod(new TestOutKeyword());
+            ExecuteMethod(new TestInKeyword());
+
             TestParamsKeyword test = new TestParamsKeyword();
             test.PrintHeader();
 
@@ -21,24 +32,3 @@ namespace c_sharp_method_passing_arguments
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-//public static void ExecuteMethod(ITestMethodPassingArgument test)
-//{
-//    test.PrintHeader();
-//    test.TestMethodPassingArgument();
-//}
-
-
-//ExecuteMethod(new TestValueType());
-//ExecuteMethod(new TestRefKeyword());
-//ExecuteMethod(new TestOutKeyword());
-//ExecuteMethod(new TestInKeyword());
