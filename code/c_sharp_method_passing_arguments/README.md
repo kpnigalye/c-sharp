@@ -7,3 +7,4 @@ My experiments with Method Passing Arguments in C#
   - ref
   - out
   - in (new in C# 7.2)
+  - params
