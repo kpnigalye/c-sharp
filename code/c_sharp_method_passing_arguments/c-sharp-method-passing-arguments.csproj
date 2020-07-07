@@ -47,11 +47,11 @@
     <Compile Include="Interface\ITestMethodPassingArgument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestInKeyword.cs" />
-    <Compile Include="TestOutKeyword.cs" />
-    <Compile Include="TestParamsKeyword.cs" />
-    <Compile Include="TestRefKeyword.cs" />
-    <Compile Include="TestValueType.cs" />
+    <Compile Include="Classes\TestInKeyword.cs" />
+    <Compile Include="Classes\TestOutKeyword.cs" />
+    <Compile Include="Classes\TestParamsKeyword.cs" />
+    <Compile Include="Classes\TestRefKeyword.cs" />
+    <Compile Include="Classes\TestValueType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
