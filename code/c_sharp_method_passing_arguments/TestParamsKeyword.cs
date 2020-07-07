@@ -11,6 +11,17 @@ namespace c_sharp_method_passing_arguments
             Console.WriteLine("-----------------------");
         }
 
+        public int DoubleAndAdd(params int[] numbers)
+        {
+            int output = 0;
+            foreach (var num in numbers)
+            {
+                output += num * 2;
+            }
+
+            return output;
+        }
+
         public int FindSum(bool flag, params int[] numbers)
         {
             int sum = 0;
