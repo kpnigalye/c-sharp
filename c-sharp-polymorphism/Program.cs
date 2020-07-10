@@ -14,8 +14,9 @@ namespace c_sharp_polymorphism
                     return new EmailNotification();
                 case (int)NotificationTypeEnum.App:
                     return new AppNotification();
+                default:
+                    throw new Exception();
             }
-            return null;
         }
 
         static void Main(string[] args)
@@ -50,7 +51,7 @@ namespace c_sharp_polymorphism
                 }
                 catch
                 {
-                    Console.WriteLine("Invalid Choice");
+                    Console.WriteLine("Invalid Choice\n");
                 }
             }
         }
