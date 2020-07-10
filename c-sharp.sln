@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-abstract-classes", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-interface", "code\c-sharp-interface\c-sharp-interface.csproj", "{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-polymorphism", "c-sharp-polymorphism\c-sharp-polymorphism.csproj", "{329FDF7C-0C94-46AC-AAC5-DA3C98943948}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-polymorphism", "code\c-sharp-polymorphism\c-sharp-polymorphism.csproj", "{329FDF7C-0C94-46AC-AAC5-DA3C98943948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
