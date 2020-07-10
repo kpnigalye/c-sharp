@@ -2,7 +2,7 @@
 
 namespace c_sharp_polymorphism
 {
-    public class EmailNotification : Notification
+    internal class EmailNotification : Notification
     {
         public override void NotifiyUser()
         {

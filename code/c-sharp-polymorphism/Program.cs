@@ -4,21 +4,6 @@ namespace c_sharp_polymorphism
 {
     class Program
     {
-        private static Notification CreateNotification(int choice)
-        {
-            switch (choice)
-            {
-                case (int)NotificationTypeEnum.SMS:
-                    return new SMSNotification();
-                case (int)NotificationTypeEnum.Email:
-                    return new EmailNotification();
-                case (int)NotificationTypeEnum.App:
-                    return new AppNotification();
-                default:
-                    throw new Exception();
-            }
-        }
-
         static void Main(string[] args)
         {
             int userChoice = -1;
@@ -42,9 +27,9 @@ namespace c_sharp_polymorphism
 
                     Console.WriteLine("----------------------");
 
-                    Notification notification = CreateNotification(userChoice);
+                    Notification notification = NotificationTypeFactory.CreateNotificationType((NotificationTypeEnum)userChoice);
 
-                    if(notification != null)
+                    if (notification != null)
                         notification.NotifiyUser();
                     else
                         throw new Exception();

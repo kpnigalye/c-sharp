@@ -2,7 +2,7 @@
 
 namespace c_sharp_polymorphism
 {
-    public class SMSNotification : Notification
+    internal class SMSNotification : Notification
     {
         public override void NotifiyUser()
         {
