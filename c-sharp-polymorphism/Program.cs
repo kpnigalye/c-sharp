@@ -25,6 +25,11 @@ namespace c_sharp_polymorphism
         }
 
         public abstract void NotifiyUser();
+
+        //public virtual void NotifiyUser()
+        //{
+        //    Console.WriteLine("Notification.NotifiyUser");
+        //}
     }
 
     public class SMSNotification : Notification
