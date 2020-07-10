@@ -4,49 +4,55 @@ namespace c_sharp_polymorphism
 {
     class Program
     {
+        private static Notification CreateNotification(int choice)
+        {
+            switch (choice)
+            {
+                case (int)NotificationTypeEnum.SMS:
+                    return new SMSNotification();
+                case (int)NotificationTypeEnum.Email:
+                    return new EmailNotification();
+                case (int)NotificationTypeEnum.App:
+                    return new AppNotification();
+            }
+            return null;
+        }
+
         static void Main(string[] args)
         {
-            Notification smsNotification = new SMSNotification();
-            smsNotification.NotifiyUser();
+            int userChoice = -1;
 
-            Notification emailNotification = new EmailNotification();
-            emailNotification.NotifiyUser();
+            Console.WriteLine(@"Choose type of notification:
+            Press 1 for 'SMS'
+            Press 2 for 'Email'
+            Press 3 for 'App'
+            -------------------
+            Press 0 to Exit");
+            Console.WriteLine();
 
-            Console.ReadLine();
-        }
-    }
+            while (userChoice != 0)
+            {
+                Console.Write("Enter your Choice: ");
+                try
+                {
+                    userChoice = Convert.ToInt32(Console.ReadLine());
+                    if (userChoice == 0)
+                        break;
 
+                    Console.WriteLine("----------------------");
 
-    public abstract class Notification
-    {
-        protected void GetUserContactInfo()
-        {
-            Console.WriteLine("Notification.GetUserContactInfo");
-        }
+                    Notification notification = CreateNotification(userChoice);
 
-        public abstract void NotifiyUser();
-
-        //public virtual void NotifiyUser()
-        //{
-        //    Console.WriteLine("Notification.NotifiyUser");
-        //}
-    }
-
-    public class SMSNotification : Notification
-    {
-        public override void NotifiyUser()
-        {
-            GetUserContactInfo();
-            Console.WriteLine("SMS Notification\n");
-        }
-    }
-
-    public class EmailNotification : Notification
-    {
-        public override void NotifiyUser()
-        {
-            GetUserContactInfo();
-            Console.WriteLine("Email Notification\n");
+                    if(notification != null)
+                        notification.NotifiyUser();
+                    else
+                        throw new Exception();
+                }
+                catch
+                {
+                    Console.WriteLine("Invalid Choice");
+                }
+            }
         }
     }
 }
