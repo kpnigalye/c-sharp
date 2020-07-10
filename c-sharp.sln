@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-abstract-classes", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-interface", "code\c-sharp-interface\c-sharp-interface.csproj", "{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-polymorphism", "c-sharp-polymorphism\c-sharp-polymorphism.csproj", "{329FDF7C-0C94-46AC-AAC5-DA3C98943948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959B2C70-0DE9-40B7-ACA2-4C1F0756BC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329FDF7C-0C94-46AC-AAC5-DA3C98943948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329FDF7C-0C94-46AC-AAC5-DA3C98943948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329FDF7C-0C94-46AC-AAC5-DA3C98943948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329FDF7C-0C94-46AC-AAC5-DA3C98943948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
