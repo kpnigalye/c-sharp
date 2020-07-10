@@ -10,13 +10,3 @@ My experiments and observations while using C#
 ## Topics Planning to cover
 - Access Modifiers
 - C# keywords
-- Reflection
-- Generics
-- Delegates
-- Lamda functions
-- Async/Await
-- LINQ
-- Threading
-  - Threadpool
-  - TPL
- 
