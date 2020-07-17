@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_sealed_keyword
 {
-    public class Employee
+    public class Staff
     {
         public virtual int BaseSalary { get; set; }
 
@@ -19,7 +19,7 @@ namespace c_sharp_sealed_keyword
         }
     }
 
-    public class Manager : Employee
+    public class Manager : Staff
     {
         public sealed override int BaseSalary { get; set; }
 

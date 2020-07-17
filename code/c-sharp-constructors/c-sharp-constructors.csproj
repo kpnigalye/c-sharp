@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61817F17-FB9D-4677-B57C-241C3EDD9728}</ProjectGuid>
+    <ProjectGuid>{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>c_sharp_sealed_keyword</RootNamespace>
-    <AssemblyName>c-sharp-sealed-keyword</AssemblyName>
+    <RootNamespace>c_sharp_constructors</RootNamespace>
+    <AssemblyName>c-sharp-constructors</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\ConstructorCallingAnotherConstructor.cs" />
+    <Compile Include="Classes\CopyConstructor.cs" />
+    <Compile Include="Classes\InstanceConstructorWithInheritance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\InstanceConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

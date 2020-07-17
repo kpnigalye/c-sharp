@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-polymorphism", "cod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-sealed-keyword", "code\c-sharp-sealed-keyword\c-sharp-sealed-keyword.csproj", "{61817F17-FB9D-4677-B57C-241C3EDD9728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-constructors", "code\c-sharp-constructors\c-sharp-constructors.csproj", "{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{61817F17-FB9D-4677-B57C-241C3EDD9728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61817F17-FB9D-4677-B57C-241C3EDD9728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61817F17-FB9D-4677-B57C-241C3EDD9728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EE3C66-93DE-46C6-BC3B-494ACCE5A098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
