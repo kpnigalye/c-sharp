@@ -17,9 +17,13 @@ namespace c_sharp_constructors
             //Vehical car = new SportsCar();
             #endregion
 
-
             #region Constructor calling another Constructor
             //Employee employee = new Employee(20000, 52);
+            #endregion
+
+            #region Copy Constructor
+            //Circle circle = new Circle(5);
+            //Circle anotherCircle = new Circle(circle);
             #endregion
 
             Console.ReadLine();

@@ -12,9 +12,9 @@ namespace c_sharp_constructors
         }
 
         // Copy Constructor
-        public Circle(Circle shape)
+        public Circle(Circle circle)
         {
-            _radius = shape._radius;
+            _radius = circle._radius;
         }
     }
 }
