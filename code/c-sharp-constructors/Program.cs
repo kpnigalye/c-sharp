@@ -26,6 +26,10 @@ namespace c_sharp_constructors
             //Circle anotherCircle = new Circle(circle);
             #endregion
 
+            //StaticConstructorTest test = new StaticConstructorTest();
+            StaticConstructorTest.Testing();
+            StaticConstructorTest.TestingAgain();
+
             Console.ReadLine();
         }
     }

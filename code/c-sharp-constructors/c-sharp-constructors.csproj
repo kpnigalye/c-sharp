@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ConstructorCallingAnotherConstructor.cs" />
+    <Compile Include="Classes\StaticConstructor.cs" />
     <Compile Include="Classes\CopyConstructor.cs" />
     <Compile Include="Classes\InstanceConstructorWithInheritance.cs" />
     <Compile Include="Program.cs" />
