@@ -26,9 +26,17 @@ namespace c_sharp_constructors
             //Circle anotherCircle = new Circle(circle);
             #endregion
 
+            #region Static Constructor
             //StaticConstructorTest test = new StaticConstructorTest();
-            StaticConstructorTest.Testing();
-            StaticConstructorTest.TestingAgain();
+            //StaticConstructorTest.Testing();
+            #endregion
+
+            #region Private Constructor
+
+            // compiler error
+            //CoffeeMachine machine = new CoffeeMachine();
+
+            #endregion
 
             Console.ReadLine();
         }
