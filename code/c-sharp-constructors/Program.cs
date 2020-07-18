@@ -33,7 +33,7 @@ namespace c_sharp_constructors
 
             #region Private Constructor
 
-            // compiler error
+            // Compiler Error
             //CoffeeMachine machine = new CoffeeMachine();
 
             #endregion

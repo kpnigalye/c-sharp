@@ -22,6 +22,24 @@ namespace c_sharp_constructors
             Console.WriteLine("Calling Static Method");
         }
     }
+
+
+    //public static class MyStatic
+    //{
+    //    // this will be initialized before static constructor
+    //    private static string data = "Something";
+
+    //    // if you don't define static constructor, compiler will define it for you.
+    //    static MyStatic()
+    //    {
+
+    //    }
+
+    //    public static void StaticMethod()
+    //    {
+
+    //    }
+    //}
 }
 
 
